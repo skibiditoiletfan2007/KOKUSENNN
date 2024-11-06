@@ -464,11 +464,7 @@ v4.UpdateAttributeColors = function(v182, v183) --[[ Line: 457 ]] --[[ Name: Upd
 		return;
 	end;
 end;
-local v189 = RaycastParams.new();
-v189.FilterType = Enum.RaycastFilterType.Include;
-v189.FilterDescendantsInstances = {
-	workspace.Map
-};
+
 v4.UpdateGroundColors = function(v190, v191) --[[ Line: 482 ]] --[[ Name: UpdateGroundColors ]]
 	if not v191 then
 		return;
